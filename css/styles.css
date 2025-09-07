@@ -17,7 +17,7 @@ img{
     display: block;
 }
 
-.header .container {
+.container {
     max-width: 1158px;
     padding: 0 15px;
     /*!!! Цнтруємо контент !!!*/
@@ -41,7 +41,7 @@ img{
     padding: 24px 0;
 }
 
-.header .container{
+.container{
     display: flex;
     align-items: center;
     padding-top: 24px;
@@ -59,6 +59,14 @@ img{
     gap: 40px;
     margin-right: 332px;
     padding: 24px 0;
+}
+
+.menu-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    max-height: 72px;
 }
 
 .header-contacts{
