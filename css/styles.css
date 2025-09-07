@@ -190,9 +190,7 @@ display: block;
 
 }
 
-.visualy-hidden{
-    width: 1px;
-}
+.visualy-hidden
 
 .feature-list-item{
     width: calc((100% - 72px) / 4);
