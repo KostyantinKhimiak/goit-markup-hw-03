@@ -18,11 +18,10 @@ img{
 }
 
 .container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
 
 
 .container-narrow{
@@ -40,7 +39,7 @@ img{
     padding: 24px 0;
 }
 
-.container{
+.header .container{
     display: flex;
     align-items: center;
     padding-top: 24px;
