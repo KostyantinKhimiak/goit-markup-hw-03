@@ -17,7 +17,7 @@ img{
     display: block;
 }
 
-.container {
+.header .container {
     max-width: 1158px;
     padding: 0 15px;
     /*!!! Цнтруємо контент !!!*/
