@@ -26,7 +26,10 @@ img{
 
 .container-narrow{
     width: 496px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
 
 .header {
     padding-top: 24px;
