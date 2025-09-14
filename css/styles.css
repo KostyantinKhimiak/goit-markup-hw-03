@@ -17,11 +17,6 @@ img{
     display: block;
 }
 
-.container-narrow{
-    width: 496px;
-}
-
-
 .header {
     border-bottom: 1px solid #e7e9fc
 }
@@ -34,6 +29,7 @@ img{
 
 .header-menu-link{
     padding: 24px 0;
+    display: block;
 }
 
 .header .container{
@@ -130,6 +126,10 @@ font-style: normal;
     font-style: normal;
 }
 
+.address{
+    margin-left: auto;
+}
+
 .main{
     background-color: #2e2f42;
     text-align: center;
@@ -146,6 +146,7 @@ text-align: center;
 color: #fff;
 margin-bottom: 48px;
 max-width: 496px;
+margin: 0 auto 48px;
 }
 
 .main-btn{
@@ -161,6 +162,7 @@ min-height: 56px;
 border-radius: 4px;
 border: none;
 display: block;
+margin: 0 auto;
 }
 
 .main-btn:focus {
@@ -179,8 +181,6 @@ display: block;
 
 .features-list{
     list-style: none;
-    margin-top: 120px;
-    margin-bottom: 120px;
     display: flex;
     gap: 24px;
 
@@ -201,8 +201,6 @@ display: block;
 
 .feature-list-item{
     width: calc((100% - 72px) / 4);
-    display: flex;
-    gap: 24px;
 }
 
 .feature-subtitle{
@@ -235,17 +233,13 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 
 .team-list{
     list-style: none;
-    background-color: none;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
-    border-radius: 0 0 4px 4px;
 }
 
 .team-list-item{
@@ -269,7 +263,6 @@ font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
 color: #2e2f42;
-margin-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -279,7 +272,6 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
-padding-bottom: 32px;
 }
 
 .portfolio{
@@ -310,7 +302,6 @@ margin-bottom: 72px;
 }
 
 .portfolio-list-item{
-    margin-top: 48px;
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3)
 }
@@ -340,7 +331,6 @@ color: #434455;
 
 .footer{
     background-color: #2e2f42;
-    font-family: "Raleway", sans-serif;
     padding:  100px 0;
 }
 
@@ -354,6 +344,7 @@ color: #f4f4fd;
 }
 
 .footer-logo{
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
 line-height: 117%;
@@ -361,7 +352,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 text-decoration: none;
-padding-top: 100px;
 display: inline-block;
 margin-bottom: 16px;
 
@@ -374,6 +364,6 @@ font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-padding-bottom: 100px;
 margin-top: 16px;
+ width:264px
 }
